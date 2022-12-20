@@ -58,7 +58,24 @@ a {
       // change font color from blue to white
       color: text-color-picker($primary-color) 
     }
+  }
 
+  &-content {
+    // displays from left to right
+    display: flex;
+    // lowers words to the middle of the page
+    align-items: center;
+    // add space between nav and -content
+    margin-top: 40px;
+    
+    img {
+      // make the image smaller
+      width: 52%;
+    }
+
+    h1 {
+      font-size: 45px;
+    }
   }
 }
 

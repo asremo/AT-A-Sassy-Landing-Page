@@ -71,6 +71,17 @@ a {
 .hero nav a {
   color: white;
 }
+.hero-content {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.hero-content img {
+  width: 52%;
+}
+.hero-content h1 {
+  font-size: 45px;
+}
 
 .m-1 {
   margin: 1rem;
