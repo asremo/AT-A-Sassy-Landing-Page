@@ -52,6 +52,26 @@ a {
   text-decoration: none;
 }
 
+.hero {
+  background-color: #000814;
+  color: white;
+}
+.hero nav {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.hero nav ul {
+  list-style-type: none;
+  display: flex;
+}
+.hero nav li {
+  padding: 12px;
+}
+.hero nav a {
+  color: white;
+}
+
 .m-1 {
   margin: 1rem;
 }
